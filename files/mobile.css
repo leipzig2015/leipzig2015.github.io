@@ -1,0 +1,234 @@
+.center {
+	width: auto;
+}
+
+.banner {
+	display: none;
+}
+
+.header .center, .wholediv-home .header .center {
+	padding-top: 115px;
+	height: auto;
+}
+
+.logo {
+	top: 20px;
+	left: 20px;
+}
+
+#btn-nav-mobile {
+	display: block;
+}
+
+.nav-main {
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+.nav-main .level1 {
+	display: none;
+}
+
+.nav-main UL LI {
+	border-bottom: 1px solid #bccbd9;
+	background-color: #003870;
+	float: none;
+}
+
+.nav-main UL LI.seperator, .nav-main UL LI.seperator:hover  {
+	display: none;
+}
+
+.nav-main UL LI A, .nav-main UL LI.act {
+	color: #ffffff;
+}
+
+.nav-main UL UL, .nav-main UL LI.act:hover UL {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border-top: 1px solid #bccbd9;
+	background-color: #003870;
+	display: block;
+	z-index: 1;
+}
+
+.nav-main UL LI.act {
+	height: auto;
+}
+
+.nav-main UL LI.act UL {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.nav-main UL UL LI A, .nav-main UL UL LI.act {
+	background-color: #0079bd;
+}
+
+.nav-sub {
+	display: none;
+}
+
+.nav-meta {
+	display: none;
+}
+
+.wholediv-home .teaser {
+	display: none;
+	height: 446px;	
+	background: #1f374f; /* Old browsers */
+    background: -moz-linear-gradient(top, #233b53 0%, #1c354d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#233b53), color-stop(100%,#1c354d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #233b53 0%,#1c354d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #233b53 0%,#1c354d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #233b53 0%,#1c354d 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #233b53 0%,#1c354d 100%); /* W3C */
+}
+
+.wholediv-home .teaser .teaser-image {
+	width: 198px;
+	height: 446px;
+	float: none;
+	display: inline-block
+}
+
+.wholediv-home .teaser .teaser-image A {
+	width: 198px;
+	height: 446px;
+	display: block;
+	background-repeat: no-repeat; 
+    cursor: default;
+    overflow: hidden;
+}
+
+.wholediv-home .teaser .teaser-image A:hover {
+	background-position: 446px;
+}
+
+.wholediv-home .teaser .center {	
+	position: relative;
+}
+
+.header-shortcut {
+	display: none;
+}
+
+.intro-content {
+	margin-bottom: 45px;
+	padding: 45px 20px 45px 20px;
+}
+
+.content {
+	padding: 0px 20px 0px 20px;
+}
+
+.content-main {
+	margin-bottom: 30px;
+	width: auto;
+	float: none;
+}
+
+.content-teaser {
+	padding-top: 0px;
+	width: auto;
+	float: none;
+}
+
+.content .content-teaser {
+	background: #f0f4f7;
+	margin-right: -20px;
+	margin-left: -20px;
+	padding: 20px 20px 85px;
+}
+
+.footer {
+	padding: 20px 20px 40px 20px;
+}
+
+.footer .col {
+	margin-right: 0px;
+	margin-bottom: 20px;
+	width: auto;
+	float: none;
+}
+
+.footer .col1 div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+	margin-bottom: 20px;
+}
+
+.footer .col.last {
+	margin-right: 0px;
+	padding-top: 20px;
+	width: auto;
+	float: none;
+}
+
+.footer-shortcut {
+	margin-top: 20px;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+}
+
+.footer div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+  height: 230px;
+}
+
+/* CSC begin */
+div.csc-textpic div.csc-textpic-imagecolumn {
+	float: none;
+}
+
+div.csc-textpic-imagecolumn, td.csc-textpic-imagecolumn .csc-textpic-image {
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+/* CSC end */
+
+/* FCE begin */
+.fce-2cols, .fce-3cols {
+	width: auto;
+}
+
+.fce .col {
+	margin-right: 0px;
+	float: none;
+}
+
+.fce-2cols .col {
+	width: auto;
+}
+
+.fce-3cols .col {
+	width: auto;
+}
+/* FCE end */
+
+/* EXT begin */
+.mailform .fce .col.col1 {
+	margin-bottom: 10px;
+}
+
+.labelblock {
+	width: auto;
+}
+
+
+.labelblock .inputblock INPUT {
+	width: 97%;
+}
+
+.labelblock.labelblock-tarea TEXTAREA {
+    width: 97%;
+}
+/* EXT end */
+
+.month-large tr.event_content div.V9 span { 
+  height: 10px;
+  width: 10px;
+}
+
+.tx-cal-controller dl { display: block }
+.tx-cal-controller dt { border-bottom: 2px solid #fff; display: block; width: inherit; clear: both; padding: 10px 5px }
+.tx-cal-controller dd { display: block ; width: inherit; margin: 0; padding: 10px 5px }
